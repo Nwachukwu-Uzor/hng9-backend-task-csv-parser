@@ -1,0 +1,26 @@
+{
+  "name": "hng9-backend-task-csv-parser",
+  "version": "1.0.0",
+  "description": "A CSV file parser built as a solution to hng 9 task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "process-csv": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nwachukwu-Uzor/hng9-backend-task-csv-parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nwachukwu-Uzor/hng9-backend-task-csv-parser/issues"
+  },
+  "homepage": "https://github.com/Nwachukwu-Uzor/hng9-backend-task-csv-parser#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "json-2-csv": "^3.17.2"
+  }
+}

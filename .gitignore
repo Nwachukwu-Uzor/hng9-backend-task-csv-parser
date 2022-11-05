@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Ignore csv and json outputs
+/public/output/json/*
+/public/output/csv/*
